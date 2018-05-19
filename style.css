@@ -1,0 +1,33 @@
+.cell {
+    cursor: pointer;
+	outline: 1px solid black;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+section {
+	margin-top: 1em;
+}
+
+section.color-palette {
+    height: 50px;
+}
+
+.color-palette > div {
+	outline: none;
+	margin-left: .75em;
+	margin-right: .75em;
+	height: 1.5em;
+	width: 1.5em;
+}
+.color-palette > div.selected,
+.color-palette > div:hover {
+	margin-left: .25em;
+	margin-right: .25em;
+	height: 2.5em;
+	width: 2.5em;
+}

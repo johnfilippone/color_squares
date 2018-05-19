@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Colored Squares</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<main>
+      <section class="canvas"></section>
+      <section class="row color-palette"></section>
+      <section class="row color-palette-controls">
+          <button id="randomize-colors" type="button">Randomize Color Palette</button>
+          <button id="add-color" type="button">Add Color</button>
+          <button id="remove-color" type="button">Remove Color</button>
+      </section>
+      <section class="row canvas-controls">
+          Canvas Size:  
+          <input id="canvas-size" value=3 type="number" min="1" max="50" step="1"></input>
+      </section>
+		</main>
+		<script src="canvas.js"></script>
+		<script src="color-palette.js"></script>
+    <script src="main.js"></script>
+	</body>
+</html>
